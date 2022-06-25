@@ -1,0 +1,40 @@
+
+a {
+  text-decoration:none;
+  color:white;
+  mix-blend-mode:difference;
+}
+a:hover {
+  color:blue;
+  cursor:pointer;
+  
+}
+body {
+  background-color:#333;
+}
+h1 {
+}
+#logo-top {
+margin-top:4px;
+}
+#layoutBtn {
+  float:left;
+  margin-top:4px; /*to have the space above the image*/
+  margin-bottom:20px; /*to have the space under the image*/
+}
+#layoutBtn:hover, #layoutBtn2:hover {
+  cursor:pointer;
+}
+#layoutBtn, h1 {
+  display:inline;
+}
+#layoutBox {
+  border:2px #333 solid;
+  width:140px;
+  height:600px;
+  background-color:#222;
+  mix-blend-mode:screen;
+}
+span, h4 {
+  color:white;
+}

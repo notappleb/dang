@@ -1,0 +1,41 @@
+<!doctype HTML>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="particles.js"></script>
+  <link href="particles.css" rel="stylesheet" type="text/css"/>
+   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+<body onload="get();">
+<div id="particles">
+  <div id="webcoderskull">
+    <h2>Tab Masking</h1>
+    <input id="test"><button onclick="changePageTitle();save();">Change tab name</button><br><h3>paste image address below</h3><input id="tests"><button onclick="favoriteIcon();save();" >Change tab Icon</button>
+    <h2>Change background</h2>
+    <h4>Insert a hex code, name of color or rgb(numbers)</h4>
+  <input type="text" id="changeBackground">
+  <input type="submit" onclick="changeBackground()">
+  <h2>Change dot color</h2>
+  <h4>Insert a hex code or name of color</h4>
+  <input type="text" id="changeDot">
+  <input type="submit" onclick="changeDot();">
+  <button id="noDots" onclick="noDots();">Remove Dots</button>
+      <button id="showDots" onclick="showDots();">Show Dots</button>
+    <h2>Show Lines</h2>
+    <h4>Enabling this will create lines between the dots</h4>
+    <button id="showLines" onclick="showLines();">Enable lines</button>
+        <button id="removeLines" onclick="removeLines();">Remove lines</button>
+  <h2>Set line color</h2>
+    <h4>Use a hex color or type the color name</h4>
+    <input type="text" id="changeLines">
+      <input type="submit" onclick="changeLines();">
+    <h2>Modes</h2>
+    <h4>Enabling these will create some preset modes</h4>
+    <button id="starMode" onclick="starMode();">Star Mode</button>
+    
+  </div>
+</div>
+  <script>
+
+  </script>
+</body>
